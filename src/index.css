@@ -1,13 +1,14 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
 @import "tailwindcss";
-@theme{
-    --breakpoint-*: initial;
-    --breakpoint-sm :640px;
-    --breakpoint-md :780px;
-    --breakpoint-lg :960px;
-    --breakpoint-xl :1200px;
-    --font-primary: 'DM Serif Display';
-    --font-secondary: 'Jost';
-    --color-accentt:rgb(146, 111, 75);
-    --color-accentt-hover:rgb(116, 81, 45);
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 780px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+  --font-primary: "DM Serif Display";
+  --font-secondary: "Jost";
+  --color-accentt: rgb(146, 111, 75);
+  --color-accentt-hover: rgb(116, 81, 45);
+  --color-accentts: rgb(110, 70, 45);
 }
