@@ -1,4 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
 @import "tailwindcss";
 @theme{
     --breakpoint-*: initial;
@@ -10,4 +10,4 @@
   --font-secondary: 'Jost', sans-serif;
     --color-accentt:rgb(146, 111, 75);
     --color-accentt-hover:rgb(116, 81, 45);
-}
+
