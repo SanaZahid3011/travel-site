@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram } from "lucide-react";
 import Contact from "../assets/contct1.jpeg";
 import back from "./../assets/heroImage/back.jpeg";
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="w-full relative">
@@ -77,16 +77,16 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-300 text-sm font-serif flex  flex-col justify-center items-center">
               <li className="hover:text-accentt cursor-pointer transition">
-                About Us
+                <Link to="/about">About us</Link>{" "}
               </li>
               <li className="hover:text-accentt cursor-pointer transition">
-                Service
+                <Link to="/home">Home</Link>
               </li>
               <li className="hover:text-accentt-hover cursor-pointer transition">
                 Package
               </li>
               <li className="hover:text-accentt cursor-pointer transition">
-                FAQ’s
+                <Link to="/contact">Contact us</Link>
               </li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* Column 4 */}
+
           <div className="text-center sm:text-left">
             <h3 className="text-2xl font-semibold mb-3  text-white font-primary">
               Newsletter
