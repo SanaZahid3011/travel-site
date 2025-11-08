@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bgImage2 from "../assets/heroImage/kaabahimage14.webp";
+import bgImage2 from "../assets/heroImage/heroo10.webp";
 
 const Mainpic = ({ children }) => {
+
   return (
     <motion.div
       className="relative w-full h-[45vh] sm:h-[60vh] md:h-[70vh] lg:h-[85vh] xl:h-[90vh] overflow-hidden"

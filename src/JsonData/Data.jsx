@@ -152,3 +152,32 @@ export const arbaeenPackages = [
       "Perfect for those with limited time — a short yet deeply moving pilgrimage that lets you witness the devotion of Arbaeen in Karbala and Najaf.",
   },
 ];
+export const umrahPackages = [
+  {
+    id: 1,
+    title: "Economy Umrah Package",
+    location: "Makkah & Madinah",
+    duration: "7 Days / 6 Nights",
+    price: "PKR 150,000",
+    description:
+      "An affordable Umrah package ideal for first-time pilgrims. Includes visa, economy flights, 3-star accommodation, and ground transport between Makkah and Madinah.",
+  },
+  {
+    id: 2,
+    title: "Standard Umrah Package",
+    location: "Makkah & Madinah",
+    duration: "10 Days / 9 Nights",
+    price: "PKR 220,000",
+    description:
+      "Enjoy a comfortable 4-star Umrah experience with premium hotels near Haram, visa assistance, breakfast, and ziyarat tours in both holy cities.",
+  },
+  {
+    id: 3,
+    title: "Luxury Umrah Package",
+    location: "Makkah & Madinah",
+    duration: "12 Days / 11 Nights",
+    price: "PKR 320,000",
+    description:
+      "Experience a 5-star Umrah journey with top-tier accommodation at Fairmont Makkah and The Oberoi Madinah, private transport, buffet meals, and guided ziyarat.",
+  },
+];
