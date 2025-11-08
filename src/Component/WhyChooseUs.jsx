@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
 
   return (
     <section
-      className="relative py-16 px-6 bg-fixed bg-center bg-cover mt-[50px] mb-[50px]"
+      className="relative py-16 px-6 bg-fixed bg-center bg-cover mt-[50px] mb-[70px]"
       style={{ backgroundImage: `url(${choose})` }}
     >
       {/* Background Overlay */}

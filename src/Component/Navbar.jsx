@@ -16,16 +16,20 @@ const Navbar = () => {
           <Link to="/home">Home</Link>
         </li>
         <li className="hover:text-accentt cursor-pointer transition">
-          Zayarat pakage{" "}
+          {" "}
+          <Link to="/Zayaratpakage">Zayarat pakage</Link>
         </li>
         <li className="hover:text-accentt cursor-pointer transition">
-          Ashura oblige
+         <Link to="/Ashura">Ashura oblige</Link> 
         </li>
         <li className="hover:text-accentt cursor-pointer transition">
-          Arbyenn{" "}
+         <Link to="/Arbyenn"> Arbyenn</Link>{" "}
         </li>
-        <li className="hover:text-accentt cursor-pointer transition">Umrah </li>
-        <li className="hover:text-accentt cursor-pointer transition">About</li>
+        <li className="hover:text-accentt cursor-pointer transition">
+        <Link to="/Umrah">Umrah</Link> </li>
+        <li className="hover:text-accentt cursor-pointer transition">
+        <Link to="/About">About</Link>
+        </li>
         <li className="hover:text-accentt mr-[20px] cursor-pointer transition">
           <Link to="/Contact">Contact</Link>
         </li>
@@ -48,22 +52,25 @@ const Navbar = () => {
       >
         <ul className="pl-[3rem] pt-[1rem] pb-[1rem] space-y-2 text-white">
           <li>
-            <a href="#">Home</a>
+            <Link to="/Home">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/Zayaratpakage">Zayarat pakage</Link>
           </li>
           <li>
-            <a href="#">Testimonials</a>
+            <Link to="/Ashura">Ashura oblige</Link>
           </li>
           <li>
-            <a href="#">Our Work</a>
+            <Link to="/Arbyenn">Arbyenn</Link>
           </li>
           <li>
-            <a href="#">News</a>
+            <Link to="/Umrah">Umrah</Link>
+          </li>
+           <li>
+            <Link to="/About">About</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/Contact">Contact</Link>
           </li>
         </ul>
       </div>

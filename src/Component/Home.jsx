@@ -9,6 +9,7 @@ import Ashura from './Ashura';
 import Booking from './Booking';
 import Arbaeen from './Arbaeen';
 import WhyChooseUs from './WhyChooseUs';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         <Booking/>
         <Arbaeen/>
         <WhyChooseUs/>
+        <Footer/>
     </div>
   )
 }

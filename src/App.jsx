@@ -1,17 +1,23 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Component/Home";
+import Contact from "./Component/Contact.jsx";
+import ZiyaratPackages from "./Component/ziyaratpage.jsx";
+import Ashurapage from "./Component/Ashurapage.jsx";
+import ArbyennPage from "./Component/ArbyennPage.jsx";
+import Umrahpage from "./Component/Umrahpage.jsx";
 
-import Contact from "../src/Component/Contact.jsx";
 const App = () => {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/Zayaratpakage" element={<ZiyaratPackages />} />
+      <Route path="/Ashura" element={<Ashurapage />} />
+      <Route path="/Arbyenn" element={<ArbyennPage />} />
+      <Route path="/Umrah" element={<Umrahpage />} />
+    </Routes>
   );
 };
 
