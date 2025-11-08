@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import imgTopLeft from "./../assets/heroImage/heroo5.webp";
+import imgTopLeft from "./../assets/heroImage/heroo15.webp";
 import imgTopRight from "./../assets/heroImage/heroo8.webp";
-import imgBottom from "./../assets/heroImage/heroo14.webp";
+import imgBottom from "./../assets/heroImage/pilgrims2.webp";
 
 export default function ZiaratCEOSection() {
   return (
