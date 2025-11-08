@@ -6,6 +6,7 @@ import ZiyaratPackages from "./Component/ziyaratpage.jsx";
 import Ashurapage from "./Component/Ashurapage.jsx";
 import ArbyennPage from "./Component/ArbyennPage.jsx";
 import Umrahpage from "./Component/Umrahpage.jsx";
+import About from "../src/Component/About.jsx";
 
 const App = () => {
   return (
@@ -17,7 +18,9 @@ const App = () => {
       <Route path="/Ashura" element={<Ashurapage />} />
       <Route path="/Arbyenn" element={<ArbyennPage />} />
       <Route path="/Umrah" element={<Umrahpage />} />
+      <Route path="/about" element={<About />} />
     </Routes>
+
   );
 };
 

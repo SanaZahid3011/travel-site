@@ -30,7 +30,9 @@ const Contact = () => {
     <>
       <Topbar />
       <Navbar />
-      <Mainpic />
+      <Mainpic>
+        Contact Us For The Further <br /> Information
+      </Mainpic>
 
       <motion.div
         variants={fadeUp}
