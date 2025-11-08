@@ -14,6 +14,8 @@ import Navbar from "./Navbar.jsx";
 import Mainpic from "./Mainpic.jsx";
 import Topbar from "./Topbar.jsx";
 import Footer from "./Footer.jsx";
+import WhoWeAre from "./Whoare.jsx";
+import ZiaratCEOSection from "./Ziyaratmessage.jsx";
 
 const About = () => {
   return (
@@ -222,6 +224,9 @@ const About = () => {
           </motion.div>
         </motion.div>
       </motion.div>
+      <WhoWeAre />
+
+      <ZiaratCEOSection />
       <Footer />
     </>
   );
