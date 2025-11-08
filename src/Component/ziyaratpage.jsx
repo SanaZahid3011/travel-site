@@ -10,7 +10,9 @@ const ziyaratpage = () => {
     <div>
       <Topbar/>
       <Navbar/>
-      <Mainpic/>
+       <Mainpic>
+         Guiding You Through Every<br /> Step Of Ziyarat
+      </Mainpic>
       <ZiyaratPackages />
       <Footer/>
     </div>

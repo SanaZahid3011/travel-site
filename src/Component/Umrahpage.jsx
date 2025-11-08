@@ -9,7 +9,9 @@ const Umrahpage = () => {
     <div>
       <Topbar/>
       <Navbar/>
-      <Mainpic/>
+      <Mainpic>
+        Umrah Where Every Step Brings<br /> You Closer to Allah
+      </Mainpic>
       <UmrahPackage/>
       <Footer/>
     </div>
