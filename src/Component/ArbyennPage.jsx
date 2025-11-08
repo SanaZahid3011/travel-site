@@ -10,7 +10,9 @@ const ArbyennPage = () => {
     <div>
       <Topbar/>
       <Navbar/>
-      <Mainpic/>
+       <Mainpic>
+         Your Spiritual Companion for the<br /> Arbyenn Pilgrimage
+      </Mainpic>
       <Arbaeen/>
       <Footer/>
     </div>

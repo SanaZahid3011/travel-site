@@ -10,7 +10,9 @@ const Ashurapage = () => {
     <div>
       <Topbar/>
       <Navbar/>
-      <Mainpic/>
+       <Mainpic>
+        Reignite Your Spirit with the Eternal<br />  Light of Ashura
+      </Mainpic>
       <Ashura/>
       <Footer/>
     </div>
